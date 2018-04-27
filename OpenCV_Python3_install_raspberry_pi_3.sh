@@ -19,17 +19,15 @@ $ cd ~
 $ wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
 $ unzip opencv.zip
 
-$ cd ~
-$ wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
-$ unzip opencv.zip
+$ wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.3.0.zip
+$ unzip opencv_contrib.zip
 
-$ cd ~
-$ wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
-$ unzip opencv.zip
+$ wget https://bootstrap.pypa.io/get-pip.py
+$ sudo python get-pip.py
+$ sudo python3 get-pip.py
 
-$ cd ~
-$ wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
-$ unzip opencv.zip
+$ sudo pip install virtualenv virtualenvwrapper
+$ sudo rm -rf ~/.cache/pip
 
 # virtualenv and virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
